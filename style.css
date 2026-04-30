@@ -1,0 +1,165 @@
+/* Paleta Corporate Moderno + Premium Gradient */
+:root {
+  --azul-principal: #2563EB;     
+  --azul-escuro: #1E3A8A;        
+  --azul-deep: #172554;          /* Novo tom para o gradiente */
+  --branco: #FFFFFF;             
+  --cinza-fundo: #F8FAFC;        /* Um cinza mais limpo */
+  --azul-fundo: #E0E7FF;         /* Tom final do degradê de fundo */
+  --cinza-texto: #334155;        
+  --cinza-muted: #64748B;       
+  --sucesso: #22C55E;            
+  --erro: #EF4444;               
+}
+
+/* 1. Ajuste do Fundo: Degradê Suave e Elegante */
+body {
+  background: linear-gradient(180deg, var(--cinza-fundo) 0%, var(--azul-fundo) 100%);
+  background-attachment: fixed;
+  color: var(--cinza-texto);
+  font-family: 'Inter', -apple-system, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+/* 2. Redesign do Header: Deixando de ser um bloco "feio" */
+header {
+  /* Gradiente moderno entre os tons de azul */
+  background: linear-gradient(135deg, var(--azul-escuro) 0%, var(--azul-deep) 100%);
+  padding: 3.5rem 1rem;
+  color: var(--branco);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 15px -3px rgba(30, 58, 138, 0.2);
+  clip-path: ellipse(150% 100% at 50% 0%); /* Curva leve no fundo do header */
+  margin-bottom: 3rem;
+}
+
+header h1 {
+  font-weight: 850;
+  font-size: 2.8rem;
+  margin: 0;
+  letter-spacing: -1.5px;
+  text-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+header p {
+  opacity: 0.85;
+  margin-top: 8px;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+/* 3. Cards: Mantendo o layout, mas com "flutuação" */
+.card {
+  background-color: var(--branco) !important;
+  border: none !important; /* Removemos a borda para um look mais clean */
+  border-radius: 16px !important;
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05), 0 10px 15px -3px rgba(0, 0, 0, 0.03) !important;
+  padding: 1.8rem;
+  color: var(--cinza-texto) !important;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Efeito suave ao passar o mouse */
+}
+
+.card-title {
+  color: var(--azul-escuro) !important;
+  font-weight: 800;
+  border-left: 4px solid var(--azul-principal); /* Troquei a borda inferior pela lateral */
+  padding-left: 12px;
+  border-bottom: none; 
+  margin-bottom: 25px;
+}
+
+/* 4. Inputs e Botões: Consistência visual */
+.form-label {
+  font-weight: 700;
+  color: var(--cinza-texto);
+  font-size: 0.85rem;
+}
+
+.form-control {
+  background-color: #FBFCFD !important;
+  border: 2px solid #E2E8F0 !important;
+  border-radius: 10px !important;
+  padding: 12px;
+}
+
+.form-control:focus {
+  border-color: var(--azul-principal) !important;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1) !important;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, var(--azul-principal), #3B82F6) !important;
+  border: none !important;
+  border-radius: 10px !important;
+  font-weight: 700;
+  padding: 12px;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+}
+
+/* 5. Tabela e Números */
+#somaTotal, #totalAlertas {
+  color: var(--azul-principal);
+  font-weight: 900;
+  font-size: 2.2rem;
+}
+
+.table thead th {
+  background-color: #F8FAFC;
+  color: var(--cinza-muted);
+  font-weight: 700;
+  border-bottom: 2px solid #EDF2F7;
+}
+
+/* Badges e Status */
+.bg-success { background: linear-gradient(90deg, #22C55E, #4ADE80) !important; }
+.bg-danger { background: linear-gradient(90deg, #EF4444, #F87171) !important; }
+
+.badge {
+  border-radius: 8px !important;
+  padding: 10px 15px !important;
+}
+
+/* Ajustes para o Header Aprimorado */
+.main-header {
+  background: linear-gradient(135deg, var(--azul-escuro) 0%, var(--azul-deep) 100%);
+  padding: 4rem 1rem;
+  color: var(--branco);
+  text-align: center;
+  clip-path: ellipse(150% 100% at 50% 0%);
+  box-shadow: 0 10px 15px -3px rgba(30, 58, 138, 0.2);
+}
+
+.main-header h1 {
+  font-weight: 850;
+  font-size: 3rem; /* Um pouco maior para destaque */
+  margin: 0;
+  letter-spacing: -1.5px;
+  /* Removendo o 'text-primary' e usando branco ou brilho sutil */
+  color: var(--branco);
+  text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.main-header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  font-weight: 400;
+  max-width: 600px;
+  margin: 10px auto 0;
+}
+
+.header-divider {
+  width: 60px;
+  height: 4px;
+  background: var(--azul-principal);
+  margin: 20px auto 0;
+  border-radius: 2px;
+  opacity: 0.8;
+}
