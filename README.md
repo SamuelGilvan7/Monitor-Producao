@@ -1,25 +1,78 @@
-# 🏭 TechFab Control - Sistema de Monitoramento Industrial
+Markdown
+# 🏭 TechFab Control — Gestão de Produção & Status Industrial
 
-### 🔗 Links do Projeto
-- **Site ao Vivo (Vercel):** [CLIQUE AQUI PARA ACESSAR](https://monitor-producao-five.vercel.app/)
-- **Repositório GitHub:** [CLIQUE AQUI PARA VER O CÓDIGO](https://github.com/SamuelGilvan7/Monitor-Producao)
+![Licença](https://img.shields.io/badge/license-MIT-blue.svg)
+![Vercel](https://img.shields.io/badge/deploy-vercel-black.svg)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?logo=javascript&logoColor=black)
+
+Dashboard industrial moderno para monitorização de chão de fábrica em tempo real. O sistema permite o controlo de metas de produção e o diagnóstico de segurança das máquinas.
 
 ---
 
-## 📝 Sobre o Projeto
+## 🚀 Demonstração
 
-### 🚩 O Problema
-No ambiente fabril, a falta de acompanhamento em tempo real das metas de produção e do estado das máquinas pode gerar atrasos críticos e riscos de segurança. O uso de planilhas manuais dificulta a visualização rápida de quais setores estão abaixo da meta ou quais máquinas estão operando acima da velocidade segura.
+🔗 **Link do Site:** [ACEDA AO TECHFAB CONTROL AQUI](INSERIR_SEU_LINK_DA_VERCEL_AQUI)
 
-### 💡 A Solução
-O **TechFab Control** é um Dashboard industrial moderno e responsivo que permite:
-1. **Registro de Produção:** Acompanhamento instantâneo de produtos, quantidades e metas.
-2. **Cálculo de Performance:** Visualização automática (Verde/Vermelho) de metas atingidas com barras de progresso.
-3. **Monitoramento de Máquinas:** Sistema de diagnóstico individual para controle de velocidade (km/h) com alertas de segurança automáticos.
-4. **Persistência de Dados:** Uso de `LocalStorage` para garantir que as informações não sejam perdidas ao fechar o navegador.
+---
 
-## 🛠️ Tecnologias Utilizadas
-- **HTML5 & CSS3:** Estrutura e estilização com degradês modernos e layouts responsivos.
-- **JavaScript (ES6+):** Lógica de negócio, manipulação de DOM e armazenamento local.
-- **Bootstrap 5:** Componentes de UI e sistema de grid.
-- **Google Fonts (Inter):** Tipografia focada em legibilidade.
+## 📋 Sobre o Projeto
+
+O **TechFab Control** foi desenvolvido para resolver a falta de visibilidade imediata em linhas de produção. Muitas fábricas ainda dependem de registos manuais, o que atrasa a tomada de decisão quando uma máquina opera fora dos padrões de segurança.
+
+### Solução Proposta:
+- **Monitorização de Metas:** Cálculo automático da percentagem de produção com feedback visual (Progress Bars dinâmicas).
+- **Controlo de Segurança:** Gestão de velocidade das máquinas com alertas visuais (Alerta ⚠️ vs OK ✅).
+- **Persistência de Dados:** Implementação de `LocalStorage`, permitindo que os dados sobrevivam ao fecho do browser.
+
+---
+
+## ✨ Funcionalidades Principais
+
+✅ **Registo Dinâmico:** Cada produto registado cria automaticamente uma nova unidade de monitorização (Máquina M-01, M-02...).
+✅ **Diagnóstico Geral:** Botão para realizar um check-up completo em todas as máquinas através de prompts interativos.
+✅ **Ajuste Individual:** Edição rápida de velocidade para máquinas específicas no card de Status.
+✅ **Indicadores de Performance (KPIs):** Cards de resumo com Total Produzido e Máquinas em Alerta.
+✅ **Design Responsivo:** Interface otimizada para tablets, computadores e smartphones.
+
+---
+
+## 🛠️ Tecnologias e Conceitos Utilizados
+
+- **Frontend:** HTML5 semântico e CSS3 (Flexbox/Grid e Gradientes Customizados).
+- **Framework CSS:** Bootstrap 5 para componentes e grelha.
+- **Lógica de Negócio:** JavaScript ES6+ (Manipulação de Arrays, JSON, Arrow Functions e DOM).
+- **Armazenamento:** Web Storage API (LocalStorage).
+- **Deployment:** Vercel para CI/CD integrado ao GitHub.
+
+---
+
+## ⚙️ Como Executar o Projeto Localmente
+
+1. Clone este repositório:
+   ```bash
+   git clone [https://github.com/SEU_UTILIZADOR/techfab-control.git](https://github.com/SEU_UTILIZADOR/techfab-control.git)
+Aceda à pasta do projeto:
+
+Bash
+cd techfab-control
+Abra o ficheiro index.html no seu navegador ou utilize a extensão Live Server do VS Code.
+
+👤 Autor
+Desenvolvido por Samuel Gilvan.
+
+Gostou do projeto? Entre em contacto!
+
+Este projeto faz parte do meu portefólio de desenvolvimento frontend.
+
+
+---
+
+### 💡 Dicas para que o README fique perfeito:
+
+1.  **Imagens/GIFs:** O GitHub permite que coloques uma imagem do teu site. Se puderes, tira um print do Dashboard e coloca na pasta do projeto. No README, podes adicionar: `![Preview do Projeto](caminho/para/o/print.png)`.
+2.  **Links:** Não te esqueças de substituir os textos em maiúsculas (`INSERIR_SEU_LINK...`) pelos links reais da tua Vercel e do teu Perfil.
+3.  **Badges:** Aqueles códigos no topo geram botões coloridos automáticos. Isso dá um ar de "projeto mantido por profissionais".
+
+**O que achaste desta versão? Está pronto para o "Commit" final! 🚀**
