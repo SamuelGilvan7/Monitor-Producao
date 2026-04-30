@@ -2,7 +2,7 @@
 
 ### 🔗 Links do Projeto
 - **Site ao Vivo (Vercel):** [CLIQUE AQUI PARA ACESSAR](SEU_LINK_DA_VERCEL_AQUI)
-- **Repositório GitHub:** [CLIQUE AQUI PARA VER O CÓDIGO](SEU_LINK_DO_GITHUB_AQUI)
+- **Repositório GitHub:** [CLIQUE AQUI PARA VER O CÓDIGO](https://github.com/SamuelGilvan7/Monitor-Producao)
 
 ---
 
