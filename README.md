@@ -31,9 +31,13 @@ O **TechFab Control** foi desenvolvido para resolver a falta de visibilidade ime
 ## ✨ Funcionalidades Principais
 
 ✅ **Registo Dinâmico:** Cada produto registado cria automaticamente uma nova unidade de monitorização (Máquina M-01, M-02...).
+
 ✅ **Diagnóstico Geral:** Botão para realizar um check-up completo em todas as máquinas através de prompts interativos.
+
 ✅ **Ajuste Individual:** Edição rápida de velocidade para máquinas específicas no card de Status.
+
 ✅ **Indicadores de Performance (KPIs):** Cards de resumo com Total Produzido e Máquinas em Alerta.
+
 ✅ **Design Responsivo:** Interface otimizada para tablets, computadores e smartphones.
 
 ---
