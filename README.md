@@ -13,7 +13,7 @@ Dashboard industrial moderno para monitorização de chão de fábrica em tempo 
 
 ## 🚀 Demonstração
 
-🔗 **Link do Site:** [ACEDA AO TECHFAB CONTROL AQUI](INSERIR_SEU_LINK_DA_VERCEL_AQUI)
+🔗 **Link do Site:** [ACEDA AO TECHFAB CONTROL AQUI](https://monitor-producao-cnlq.vercel.app/)
 
 ---
 
@@ -69,10 +69,3 @@ Este projeto faz parte do meu portefólio de desenvolvimento frontend.
 
 ---
 
-### 💡 Dicas para que o README fique perfeito:
-
-1.  **Imagens/GIFs:** O GitHub permite que coloques uma imagem do teu site. Se puderes, tira um print do Dashboard e coloca na pasta do projeto. No README, podes adicionar: `![Preview do Projeto](caminho/para/o/print.png)`.
-2.  **Links:** Não te esqueças de substituir os textos em maiúsculas (`INSERIR_SEU_LINK...`) pelos links reais da tua Vercel e do teu Perfil.
-3.  **Badges:** Aqueles códigos no topo geram botões coloridos automáticos. Isso dá um ar de "projeto mantido por profissionais".
-
-**O que achaste desta versão? Está pronto para o "Commit" final! 🚀**
