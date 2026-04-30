@@ -1,7 +1,7 @@
 # 🏭 TechFab Control - Sistema de Monitoramento Industrial
 
 ### 🔗 Links do Projeto
-- **Site ao Vivo (Vercel):** [CLIQUE AQUI PARA ACESSAR](SEU_LINK_DA_VERCEL_AQUI)
+- **Site ao Vivo (Vercel):** [CLIQUE AQUI PARA ACESSAR](https://monitor-producao-five.vercel.app/)
 - **Repositório GitHub:** [CLIQUE AQUI PARA VER O CÓDIGO](https://github.com/SamuelGilvan7/Monitor-Producao)
 
 ---
